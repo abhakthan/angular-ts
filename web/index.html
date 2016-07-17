@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- build:js -->
+  <script src="jspm_packages/system.js"></script>
+  <script src="config.js"></script>
+  <script>
+    System.config({
+      paths: {
+        "github:*": "jspm_packages/github/*",
+        "npm:*": "jspm_packages/npm/*"
+      }
+    });
+  </script>
+  <script>
+    System.import('lib/main');
+  </script>
+  <!-- endbuild -->
+  <title></title>
+</head>
+<body>
+<h1>Hello JSPM!!! {{ 1 + 1 }}</h1>
+</body>
+</html>

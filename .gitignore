@@ -1,0 +1,11 @@
+# packages
+node_modules
+typings
+web/jspm_packages
+
+# generated
+dev
+build
+
+# webstorm
+.idea
