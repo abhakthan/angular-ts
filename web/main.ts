@@ -3,4 +3,6 @@
  */
 
 import 'angular';
+import 'angular-ui-router'
 import './index';
+import './views/index/component';

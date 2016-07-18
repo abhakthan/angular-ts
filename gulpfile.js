@@ -32,7 +32,7 @@ gulp.task('minify', ['ts'], function (callback) {
 });
 
 gulp.task('default', ['minify'], function () {
-  exec('./node_modules/.bin/jspm bundle-sfx dev/lib/main build/app.min.js --minify', function (err, sout, serr) {
+  exec('./node_modules/.bin/jspm bundle-sfx dev/main build/app.min.js --minify', function (err, sout, serr) {
     console.log(sout);
   });
 });
